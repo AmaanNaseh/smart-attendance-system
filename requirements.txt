@@ -1,14 +1,8 @@
-pip install pytk
-pip install pillow
-
-pip install opencv-python
-pip install opencv-contrib-python
-
-pip install imutils
-pip install times
-pip install numpy
-
-pip install scikit-learn
-
-pip install pickle
-pip install imutils
+pytk
+pillow
+opencv-python
+opencv-contrib-python
+imutils
+times
+numpy
+scikit-learn

@@ -68,7 +68,7 @@ class MyGUI:
         messagebox.showinfo(title="Saved", message="Registration Successful")
 
     def click_image(self):
-        self.haar_cascade = 'haarcascade_frontalface_default.xml'
+        self.haar_cascade = 'model/haarcascade_frontalface_default.xml'
         self.classifier = cv2.CascadeClassifier(self.haar_cascade)
 
         self.dataset = 'dataset'
@@ -121,7 +121,7 @@ class MyGUI:
         self.dataset = "dataset"
 
         embedding_file = "output/embeddings.pickle"
-        embedding_model = "openface_nn4.small2.v1.t7"
+        embedding_model = "model/openface_nn4.small2.v1.t7"
         prototxt = "model/deploy.prototxt"
         model =  "model/res10_300x300_ssd_iter_140000.caffemodel"
 
@@ -247,7 +247,7 @@ class MyGUI:
 
 
         embedding_file = "output/embeddings.pickle"
-        embedding_model = "openface_nn4.small2.v1.t7"
+        embedding_model = "model/openface_nn4.small2.v1.t7"
         recognizer_file = "output/recognizer.pickle"
         labelEncoder_file = "output/le.pickle"
         conf = 0.5
