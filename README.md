@@ -12,13 +12,19 @@
 git clone https://github.com/AmaanNaseh/smart-attendance-system.git
 ```
 
-2. Install dependencies
+2. Open cloned folder in your IDE or navigate to smart-attendance-system by:
+
+```bash
+cd smart-attendance-system
+```
+
+3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the project
+4. Run the project
 
 ```bash
 python main.py
