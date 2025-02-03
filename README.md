@@ -29,3 +29,7 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+
+## Preview of the project
+
+![Image](https://github.com/user-attachments/assets/9dcf0302-c696-4a94-a04a-a88030c4bc05)
